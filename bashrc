@@ -46,7 +46,9 @@ else
     fi
 fi
 
+. ~/.public_alias
 . ~/.alias
+
 
 export PATH=${PATH}:~/Applications/gsutil:~/bin
 
