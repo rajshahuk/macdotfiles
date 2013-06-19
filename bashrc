@@ -49,7 +49,8 @@ fi
 . ~/.public_alias
 . ~/.alias
 
+export GRADLE_HOME=~/Applications/gradle-1.6
+export PATH=${PATH}:~/Applications/gsutil:~/bin:${GRADLE_HOME}/bin
 
-export PATH=${PATH}:~/Applications/gsutil:~/bin
 
 
