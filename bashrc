@@ -50,7 +50,7 @@ fi
 . ~/.alias
 
 export GRADLE_HOME=~/Applications/gradle-1.6
-export PATH=${PATH}:~/Applications/gsutil:~/bin:${GRADLE_HOME}/bin
+export PATH=${PATH}:~/Applications/gsutil:~/bin:${GRADLE_HOME}/bin:/usr/local/share/npm/bin
 
 
 echo 'eval "$(rbenv init -)"' 
