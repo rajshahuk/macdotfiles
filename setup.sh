@@ -28,4 +28,4 @@ git clone git://github.com/tpope/vim-sensible.git
 git clone git://github.com/guns/vim-sexp.git
 git clone git://github.com/tpope/vim-sexp-mappings-for-regular-people.git
 git clone git://github.com/tpope/vim-surround.git
-
+git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
