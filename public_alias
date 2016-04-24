@@ -1,4 +1,2 @@
 alias h='history'
-alias gvim='open -a MacVim'
-alias tnew='tmux new-session -As `basename $PWD`'
 
