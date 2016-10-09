@@ -5,6 +5,7 @@ ln -s ${SCRIPT_DIR}/bash_profile ${HOME}/.bash_profile
 ln -s ${SCRIPT_DIR}/bashrc ${HOME}/.bashrc
 ln -s ${SCRIPT_DIR}/public_alias ${HOME}/.public_alias
 ln -s ${SCRIPT_DIR}/vimrc ${HOME}/.vimrc
+ln -s ${SCRIPT_DIR}/tmux.conf ${HOME}/.tmux.conf
 
 # Setup pathogen and other vim stuff
 
@@ -20,4 +21,4 @@ git clone git@github.com:kien/rainbow_parentheses.vim.git
 git clone git://github.com/guns/vim-clojure-static.git
 git clone git://github.com/tpope/vim-fireplace.git
 git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
-
+git clone https://github.com/vimoutliner/vimoutliner.git
